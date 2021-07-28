@@ -1,0 +1,353 @@
+.content-bank{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.img-anggota{
+    width: 105px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.proker-singkat{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.anggota{
+    text-align: center;
+}
+
+.gambar-proker-singkat{
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.nav-pills{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #0f2033;
+}
+
+.a-kkn{
+    color: #0f2033 !important;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-family: 'Viga';
+}
+
+.navbar{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Jumbotron */
+.jumbotron-welcome{
+    background: radial-gradient(circle at top left, #27c322b0, #121980e0), url(/img/bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+.jumbotron-welcome .display-4{
+    margin-top: 100px;
+}
+
+.jumbotron-kkn{
+    background: radial-gradient(circle at top left, #27c3227e, #1219809a), url(/img/kkn.jpg) 0 -255px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+    margin-bottom: 0 !important;
+}
+
+.jumbotron-kkn .lead{
+    margin-top: 180px;
+}
+
+.jumbotron-kkn P{
+    opacity: 0.5 !important;
+}
+
+/* .j-welcome .display-4{
+    margin-top: 110px;
+}
+.j-welcome {
+    position: relative;
+    overflow: hidden;
+    height: 540px;
+  }
+  .j-welcome video {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity: 1;
+    
+  }
+  .j-welcome .container {
+    z-index: 2;
+    position: relative;
+  } */
+
+/* info panel */
+.info-panel{
+    margin-top: -90px;
+}
+
+.kotak-info{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: white;
+    margin-inline: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 10px;
+}
+
+.angka{
+    font-size: 55px;
+    font-weight: bold;
+    color: #121980;
+}
+
+.info-panel h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info-panel p{
+    font-size: 14px;
+    color: #ACACAC;
+    font-weight: 200;
+}
+
+/* Profil-Singkat */
+.profil-singkat{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.gambar-profil-singkat{
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Programmer */
+.img-programmer{
+    width: 75px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.programmer{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+/* jumbotron profil */
+.j-profil{
+    z-index: -1 !important;
+    height: 400px !important;
+    background: radial-gradient(circle at top left, #27c322b6, #121980f3);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* isi Profil */
+.isi-profil{
+    margin-top: 150px;
+    padding-bottom: 60px;
+}
+
+.k-isi{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: white;
+    margin-inline: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 10px;
+}
+
+/* contact */
+.k-contact{
+    padding-top: 130px;
+}
+
+.bg{
+    background-color: rgb(204, 204, 204);
+    padding-bottom: 60px;
+}
+
+.inf-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+.footer-panel{
+    margin: 0;
+    padding: 0;
+}
+
+/* auth */
+.body-auth{
+    background: radial-gradient(circle at top left, #036300d3, #036300d3), url(/img/d.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.auth-tengah{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.login-form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* login bank-sampah */
+.jumbotron-bank-sampah{
+    background: radial-gradient(circle at top left, #0b6b48da, #0b6b48da), url(/img/d.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0 !important;
+    padding-top: 90px;    
+}
+
+
+
+/* Jumbotron home bank sampah */
+.jumbotron-home-bank-sampah{
+    background: radial-gradient(circle at top left, #036300d3, #036300d3), url(/img/d.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+/* kotak home bank sampah */
+.kotak-home-bank-sampah{
+    vertical-align: middle;
+}
+
+.back{
+    background-color: rgb(236, 236, 236);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.img-user{
+    border-radius: 50%;
+}
+
+.j-user{
+    z-index: -1 !important;
+    height: 300px !important;
+    /* background: radial-gradient(circle at top left, #139e0e83, #131964c9), url(/img/d.jpg); */
+    background-color: cadetblue;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.isi-user{
+    margin-top: 180px;
+    
+}
+
+.card-user{
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.img-user{
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.saldo{
+    border-right: 1px solid rgb(199, 199, 199);
+}
+
+.nama{
+    border-left: 1px solid rgb(199, 199, 199);
+}
+
+/* Desktop */
+@media (min-width: 992px) { 
+    .anggota{
+        text-align: justify;
+    }
+    /* navbar */
+    .nav-link{
+        margin-right: 30px;
+        font-size: 14px;
+    }
+
+    .navbar-brand ,.nav-link{
+        /* color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); */
+    }
+
+    /* Jumbotron */
+    .jumbotron{
+        /* margin-top: -75px; */
+    }
+
+    .jumbotron-welcome .display-4{
+        margin-top: 150px;
+    }
+
+    /* info */
+    .kotak-info:hover{
+        margin-top: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transition: 0.5s;
+    }
+
+    /* profil-singkat */
+    .profil-singkat{
+        margin-top: 80px;
+    }
+
+    /* Programmer */
+    .img-programmer:hover{
+        /* margin-top: -0.5px; */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transition: 0.5s;
+    }
+
+    .jumbotron-bank-sampah{
+        padding-top: 140px;  
+    }
+    
+}
